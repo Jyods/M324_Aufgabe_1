@@ -1,0 +1,25 @@
+{
+  "name": "m324_aufgabe_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "format-write": "prettier --write .",
+    "test": "mocha ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "2.3.0",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "mocha": "^10.8.2",
+    "npm-check-updates": "^17.1.11",
+    "prettier": "^3.4.1",
+    "random-words": "^2.0.1"
+  },
+  "type": "module"
+}
