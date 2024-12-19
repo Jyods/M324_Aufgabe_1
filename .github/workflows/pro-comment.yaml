@@ -13,3 +13,6 @@ jobs:
         with:
           message: |
             Hello BBZW ! :wave:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          mode: upsert
+          create-if-not-exists: true
