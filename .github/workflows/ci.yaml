@@ -35,6 +35,7 @@ jobs:
     message: |
       Hello BBZW ! :wave:
     reactions: eyes, rocket
+    github-token: ${{ secrets.GITHUB_TOKEN }}
 
   push-silly-webhook:
     runs-on: ubuntu-latest
