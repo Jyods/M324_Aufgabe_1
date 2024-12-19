@@ -22,3 +22,14 @@ jobs:
 
       - name: Run linter
         run: npm run lint
+
+  push-silly-webhook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Push to silly webhook
+        uses: docker://lordjyods/webhook:latest
+        env:
+          DC_WEBHOOK: ${{ secrets.DC_WEBHOOK }}
